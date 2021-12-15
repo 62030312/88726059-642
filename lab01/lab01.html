@@ -1,1 +1,178 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=he, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'menu main main right right';
+            grid-gap: 10px;
+            background-color: #ffffff;
+            padding: 10px;
+        }
+
+        a.one:link {
+            color: #000000;
+        }
+
+        a.one:visited {
+            color: #0000ff;
+        }
+
+        a.one:hover {
+            color: #ff0000;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <div class="item3">
+
+             <!-- -ช้าย -->
+                <h1>My side </h1>
+                <hr size="5" color="green" />
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin id tellus.</p>
+                <p>Nam accumsan tincidunt quam. Cum sociis natoque penatibus et magnis</p>
+                <p>dis parturient montes, nascetur ridiculus mus. Donec sed est ut felis</p>
+                <p>scelerisque semper. Phasellus pretium hendrerit risus. Morbi malesuada.</p> 
+                <p>Duis porttitor tincidunt neque. Phasellus eget velit a mi aliquam</p> 
+                <p>molestie. Vestibulum lacinia viverra nisl. Praesent rutrum varius justo.</p>
+                <p>Mauris feugiat.</p>
+
+                <h3>Image In Text </h3>                   
+                <hr size="5" color="green" />
+                <P><img src="https://i5.walmartimages.com/asr/32451a10-0563-426a-9a16-a8865b2c3774_3.b3be01fcc4c956f51fe3890589897d31.jpeg" width="250" height="250" />
+                    Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit. Proin id
+                    tellus. Nam accumsan tincidunt quam.
+                    Cum sociis natoque penatibus et magnis
+                    dis parturient montes, nascetur ridiculus
+                    mus. Donec sed est ut felis scelerisque
+                    semper.
+                </P>
+                    
+                    
+                <h2>Time Table </h2>
+                <hr size="5" color="green" />
+                <table border="1" style="width:100%">
+                    <tr>
+                      <td bgcolor="BEBEBE">&nbsp;</td>
+                      <td bgcolor="BEBEBE">&nbsp;</td>
+                      <td bgcolor="BEBEBE">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="DCDCDC">&nbsp;</td>
+                      <td bgcolor="DCDCDC">&nbsp;</td>
+                      <td bgcolor="DCDCDC">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="F5F5F5">&nbsp;</td>
+                      <td bgcolor="F5F5F5">&nbsp;</td>
+                      <td bgcolor="F5F5F5">&nbsp;</td>
+                    </tr>
+                  </table>
+
+
+                <h3>Form Example </h3>
+                <hr size="5" color="green" />
+
+
+            </body>
+        </div>
+        <div class="item4">
+
+            <body> <!-- -ขวา -->
+                <table bgcolor="#dcdcdc" width="50%" hidgth="200%">
+                    <br /><br />
+                    &nbsp;
+                    <tr>
+                        <th style="border:2px solid #c5c5c5;">Main Sidebar</th>
+                    </tr>
+                    <tr>
+                        <td style="border:2px solid #c5c5c5;">
+                            <br /> This is an example of a
+                            <br /> paragraph in the sidebar
+                            <br /> followed by an example of
+                            <br /> sidebar links.          
+                            <ul>
+                                <li>
+                                    <p><b><a class="one" href="default.asp" target="_blank">link</a></b></p>
+                                </li>
+                                <li>
+                                    <p><b><a class="one" href="default.asp" target="_blank">link</a></b></p>
+                                </li>
+                                <li>
+                                    <p><b><a class="one" href="default.asp" target="_blank">link</a></b></p>
+                                </li>
+                                <li>
+                                    <p><b><a class="one" href="default.asp" target="_blank">link</a></b></p>
+                                </li>
+                                <li>
+                                    <p><b><a class="one" href="default.asp" target="_blank">link</a></b></p>
+                                </li>
+                            </ul>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+
+
+                        </td>
+                    </tr>
+                    <tr style="background-color:#ffffff;">
+                        <td style="border:2px solid #c5c5c5;">
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </td>
+                    </tr>
+                </table>
+
+
+
+
+            </body>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
